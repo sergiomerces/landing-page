@@ -26,8 +26,8 @@ header {
     border-bottom: 1px solid #33A8DB80;
 }
 
-header div.banner-content {
-    width: 600px;
+header {
+    width: 100%;
     margin: auto;
 }
 
@@ -61,7 +61,7 @@ header button {
 }
 
 section {
-    width: 800px;
+    width: 1440px;
     text-align: center;
     margin: 100px auto;
 }
@@ -92,4 +92,33 @@ h2 {
     padding: 16px;
     border-radius: 100px;
     box-shadow: inset -5px 6px 8px #000000b3;
+}
+
+span {
+    color: #33A8DB;
+}
+
+section#transform-world {
+    height: 560px;
+    background-size: cover;
+    background-image: url(../images/woman-code.png);
+    background-attachment: fixed;
+    border-top: 1px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
+    padding: 200px;
+}
+
+section#transform-world p {
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    max-width: 250px;
+    text-shadow: 3px 2px #33A8DB;
+}
+
+footer {
+    padding: 60px 0;
+        text-align: center;
+        background-image: linear-gradient(#32a8db00, #32a8db33);
+        border-top: 1px solid #33A8DB80;
 }
