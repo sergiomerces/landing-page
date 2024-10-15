@@ -22,12 +22,34 @@ header {
     height: 600px;
     padding-top: 60px;
     text-align: center;
+    border-bottom: 1px solid #33A8DB80;
 }
 
-h1 {
+header img {
+    margin: auto;
+}
+
+header h1 {
     color: #33A8DB;
     font-size: 2.5rem;
     font-weight: 900;
     text-transform: uppercase;
 }
 
+header p {
+    font-size: 1.25rem;
+    margin: 16px 0 24px 0;
+}
+
+header button {
+    color: #31A8DD;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background-color: transparent;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+    border-radius: 30px;
+}
