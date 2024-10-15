@@ -116,9 +116,19 @@ section#transform-world p {
     text-shadow: 3px 2px #33A8DB;
 }
 
+#professional-challenges img {
+    margin: 32px 0;
+}
+
 footer {
     padding: 60px 0;
         text-align: center;
         background-image: linear-gradient(#32a8db00, #32a8db33);
         border-top: 1px solid #33A8DB80;
+}
+
+footer a {
+    color: #33A8DB;
+    font-weight: bold;
+    text-decoration: none;
 }
